@@ -21,9 +21,9 @@
   * Classe NewtonRaphson: Calcula juros aproximados baseado no metodo de aproximação de Newton-Raphson
   * depositos[]:array de double que armazena os valores de deposito. O último valor deve ser o saldo.
   * datas[]:array de int que armazena o número do mês em que foi feito cada um dos depósitos. Todos os valores dever ser no mesmo ano, ou adicionar 12 para cada ano seguinte
-  * f_funcao	:calcula somatória da fórmula de Newton-Raphson - saldo a partir dos valores de datas e depósitos e retorna como double
+  * f_funcao	:calcula somatória da fórmula de Newton-Raphson - saldo a partir de juros aproximado e dos valores de datas e depósitos e retorna como double
   * f_derivada	:calcula derivada a partir de f_funcao e retorna como double
-  * newton		:calcula o os juros e retorna como double
+  * newton		:calcula o os juros a partir de um coeficiente de aproximação e retorna como double
   */ 
 class NewtonRaphson{
 	static double[] depositos;
